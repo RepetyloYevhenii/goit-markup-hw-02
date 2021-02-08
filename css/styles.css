@@ -1,0 +1,105 @@
+/* Переменные */
+:root {
+  --background-color-header: #ffffff;
+  --background-color-main: #e5e5e5;
+  --background-color-tiam: #f5f4fa;
+  --background-color-footer: #2f303a;
+
+  --color-logo: #2196f3;
+  --color-accent: #2196f3;
+  --color-text-h: #212121;
+  --color-text-p: #757575;
+  --color-text-hero: #ffffff;
+  --color-text-mail: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: #757575;
+  text-decoration: none;
+}
+
+/* утилиты */
+.list {
+  list-style: none;
+}
+
+/* скрытый заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Шапка сайта */
+.link {
+  color: var(--color-text-h);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-accent);
+}
+
+.link:focus {
+  color: var(--color-accent);
+}
+
+.contact {
+  color: var(--color-text-p);
+}
+
+/* стилизация логотипа */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: var(--color-logo);
+  text-decoration: none;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* подвал сайта */
+.bg {
+  background-color: var(--background-color-footer);
+}
+
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--color-text-mail);
+}
