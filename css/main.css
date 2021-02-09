@@ -18,6 +18,7 @@
 }
 
 .button {
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;

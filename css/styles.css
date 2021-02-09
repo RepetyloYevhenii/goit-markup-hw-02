@@ -51,6 +51,21 @@ body {
 
 .contact {
   color: var(--color-text-p);
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.link-nav{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
 
 /* стилизация логотипа */
@@ -80,6 +95,7 @@ body {
 }
 
 .address {
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -93,6 +109,7 @@ body {
 }
 
 .contacts {
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
