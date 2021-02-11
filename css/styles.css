@@ -55,8 +55,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+line-height: 1,14;
 }
 
 .link-nav{
@@ -64,8 +63,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+line-height: 1,14;
 }
 
 /* стилизация логотипа */
@@ -74,8 +72,7 @@ letter-spacing: 0.02em;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1,19;
 
   color: var(--color-logo);
   text-decoration: none;
@@ -100,11 +97,7 @@ letter-spacing: 0.02em;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
+  line-height: 1,71;
   color: #ffffff;
 }
 
@@ -114,9 +107,7 @@ letter-spacing: 0.02em;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
+  line-height: 1,71;
 
   color: var(--color-text-mail);
 }

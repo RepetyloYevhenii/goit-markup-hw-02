@@ -8,10 +8,9 @@
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1,36;
 
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -23,12 +22,11 @@
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,87;
 
-  display: flex;
+  /* display: flex;
   align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+  text-align: center; */
 
   color: #ffffff;
 }
@@ -42,8 +40,8 @@
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1,71;
+  
   text-transform: uppercase;
 
   color: var(--color-text-h);
@@ -54,9 +52,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
+  line-height: 1,71;
 }
 
 .hero-title {
@@ -67,9 +63,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+  line-height: 1,17;
 
   color: var(--color-text-h);
 }
@@ -79,9 +73,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+  line-height: 0,56;
 
   color: var(--color-text-h);
 }
@@ -91,8 +83,5 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+  line-height: 0,56;
 }
